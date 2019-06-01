@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+  app:
+    container_name: colette_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    expose:
+      - 80
+    env_file:
+      - .env
+
+networks:
+    default:
+       external:
+         name: webproxy
