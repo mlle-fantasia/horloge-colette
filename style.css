@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "courier";
+    src: url("/assets/fonts/CourierPrime.ttf");
+
+}
+.blanc{
+    color:white;
+}
+container{
+    text-align: center;
+}
+h1{
+    margin-top: 70px;
+}
+.horlogeContainer{
+    margin-top: 50px;
+    width: 550px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+.points{
+    font-size: 30px;
+}
+.pointH{
+    padding-top: 20px;
+}
+.pointB{
+    padding-bottom: 20px;
+}
+.pointL{
+    float: left;
+    padding-left: 25px;
+}
+.pointR{
+    float: right;
+    padding-right: 25px;
+}
+.lettres{
+    font-family: courier;
+    font-size: 30px;
+    color: #444343;
+    height: 38px;
+}
+.ligne1{
+    padding-top: 60px;
+    height: 97px;
+}
+.ligne10{
+    padding-bottom: 60px;
+    height: 97px;
+}
