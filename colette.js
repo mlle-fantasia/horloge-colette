@@ -49,21 +49,21 @@ $(document).ready(function () {
         showTimeInColette(momentHeure, momentMinute);
     };
 
+    /**
+     * Permet de faire des tests grossier sur l'algo
+     */
+    // showTimeInColette("14", "58");
+    // console.log("14:58", $(".blanc").length == 10);
+    // showTimeInColette("14", "59");
+    // console.log("14:59", $(".blanc").length == 11);
+    // showTimeInColette("20", "16");
+    // console.log("20:16", $(".blanc").length == 8);
+
     genererAffichageColette();
     setInterval(function () {
         genererAffichageColette();
     }, 1000);
 
-
-    /**
-     * Permet de faire des tests grossier sur l'algo
-     */
-    showTimeInColette("14", "58");
-    console.log("14:58", $(".blanc").length == 10);
-    showTimeInColette("14", "59");
-    console.log("14:59", $(".blanc").length == 11);
-    showTimeInColette("20", "16");
-    console.log("20:16", $(".blanc").length == 8);
 });
 
 function showTimeInColette(momentHeure, momentMinute) {
